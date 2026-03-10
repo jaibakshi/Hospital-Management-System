@@ -85,7 +85,7 @@ Route::middleware(['auth', 'doctor'])->group(function(){
     });
     Route::get('/doctor-appointment', [DoctorDashboardController::class, 'appointments']);
     Route::get('/doctor/patients', [DoctorDashboardController::class, 'patients']);
-    Route::get('doctordashboard', [DoctorDashboardController::class,'dashboard']);
+    Route::get('/doctorhome', [DoctorDashboardController::class,'dashboard']);
     });
 
 Route::get('/services', function(){
