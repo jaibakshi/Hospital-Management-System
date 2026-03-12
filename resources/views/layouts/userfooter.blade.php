@@ -4,7 +4,7 @@
             <div class="row mb-4">
                 <div class="col-md-3 mb-4">
                     <h6>About HMS</h6>
-                    <p class="text-muted small">Providing quality healthcare services since 1998.</p>
+                    <p>Providing quality healthcare services since 1998.</p>
                 </div>
                 <div class="col-md-3 mb-4">
                     <h6>Quick Links</h6>
@@ -16,7 +16,7 @@
                 </div>
                 <div class="col-md-3 mb-4">
                     <h6>Contact Info</h6>
-                    <p class="text-muted small">
+                    <p>
                         📞 +1 234 567 8900<br>
                         📧 info@hms.com
                     </p>
@@ -29,7 +29,7 @@
                 </div>
             </div>
             <hr class="bg-secondary">
-            <p class="text-center text-muted mb-0">&copy; 2024 Hospital Management System. All rights reserved.</p>
+            <p class="text-center mb-0">&copy; 2024 Hospital Management System. All rights reserved.</p>
         </div>
     </footer>
     

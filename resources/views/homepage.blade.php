@@ -18,33 +18,33 @@
     </section>
 
     <!-- Statistics Section -->
-    <section class="py-5 bg-light">
-        <div class="container">
+    <section class="py-5 ">
+        <div class="container achievement-card">
             <h2 class="text-center mb-5">Our Achievements</h2>
-            <div class="row g-4">
+            <div class="row g-4 ">
                 <div class="col-md-3 col-sm-6">
-                    <div class="stats-card">
+                    <div class="stats-card achievement-card">
                         <i class="fas fa-users"></i>
                         <div class="stat-number">50K+</div>
                         <p>Happy Patients</p>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6">
-                    <div class="stats-card">
+                    <div class="stats-card achievement-card">
                         <i class="fas fa-user-md"></i>
-                        <div class="stat-number">200+</div>
+                        <div class="stat-number ">200+</div>
                         <p>Expert Doctors</p>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6">
-                    <div class="stats-card">
+                    <div class="stats-card achievement-card">
                         <i class="fas fa-hospital"></i>
                         <div class="stat-number">15+</div>
                         <p>Departments</p>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6">
-                    <div class="stats-card">
+                    <div class="stats-card achievement-card">
                         <i class="fas fa-award"></i>
                         <div class="stat-number">25+</div>
                         <p>Years Experience</p>
@@ -119,8 +119,8 @@
     </section>
 
     <!-- Testimonials Section -->
-    <section class="py-5 bg-light" id="testimonials">
-        <div class="container">
+    <section class="py-5" id="testimonials">
+        <div class="container service-card">
             <h2 class="text-center mb-5">Patient Testimonials</h2>
             <div class="row">
                 <div class="col-md-4">

@@ -1,6 +1,6 @@
 @extends('layouts.usermain')
 @section('content')
-<section id="doctors" class="py-5 bg-light">
+<section id="doctors" class="py-5 services-section">
   <div class="container">
     <div class="text-center mb-5">
       <h6 class="text-primary text-uppercase fw-bold">Our Experts</h6>
@@ -14,7 +14,7 @@
           <div class="card-body">
             <h5 class="card-title fw-bold">Dr. James Wilson</h5>
             <p class="text-primary small fw-bold mb-2">Cardiologist</p>
-            <p class="card-text text-muted small">Specialist in heart surgery and vascular treatments with 15+ years experience.</p>
+            <p class="card-text">Specialist in heart surgery and vascular treatments with 15+ years experience.</p>
             <div class="d-flex justify-content-center gap-3">
               <a href="#" class="text-primary"><i class="bi bi-linkedin"></i></a>
               <a href="#" class="text-primary"><i class="bi bi-twitter"></i></a>
@@ -29,7 +29,7 @@
           <div class="card-body">
             <h5 class="card-title fw-bold">Dr. Sarah Johnson</h5>
             <p class="text-primary small fw-bold mb-2">Neurologist</p>
-            <p class="card-text text-muted small">Expert in brain disorders and nervous system treatments from Johns Hopkins.</p>
+            <p class="card-text">Expert in brain disorders and nervous system treatments from Johns Hopkins.</p>
             <div class="d-flex justify-content-center gap-3">
               <a href="#" class="text-primary"><i class="bi bi-linkedin"></i></a>
               <a href="#" class="text-primary"><i class="bi bi-twitter"></i></a>
@@ -44,7 +44,7 @@
           <div class="card-body">
             <h5 class="card-title fw-bold">Dr. Michael Chen</h5>
             <p class="text-primary small fw-bold mb-2">Pediatrician</p>
-            <p class="card-text text-muted small">Dedicated to providing the best child healthcare and newborn support.</p>
+            <p class="card-text">Dedicated to providing the best child healthcare and newborn support.</p>
             <div class="d-flex justify-content-center gap-3">
               <a href="#" class="text-primary"><i class="bi bi-linkedin"></i></a>
               <a href="#" class="text-primary"><i class="bi bi-twitter"></i></a>

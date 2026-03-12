@@ -66,6 +66,12 @@ Route::middleware(['auth', 'admin'])->group(function () {
     Route::get('/admin-department/{id}/edit', [DepartmentController::class, 'edit'])->name('admin.department.edit');
     Route::put('/admin-department/{id}', [DepartmentController::class, 'update'])->name('admin.department.update');
     Route::delete('/admin-department/{id}', [DepartmentController::class, 'destroy'])->name('admin.department.destroy');
+    Route::get('/admin/setting',function(){
+        return view('admin.setting');
+    });
+    Route::get('/admin/reports', function(){
+        return view('admin.reports');
+    });
 });
 Route::post('/logout', [UserController::class, 'logout']);
 Route::get('/logout', [UserController::class, 'logout']);

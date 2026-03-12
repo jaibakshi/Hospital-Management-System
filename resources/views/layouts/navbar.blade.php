@@ -7,4 +7,5 @@
                 <span>Welcome, Admin</span>
                 <div class="profile-avatar">A</div>
             </div>
+            
         </nav>

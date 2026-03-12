@@ -1,6 +1,6 @@
 @extends('layouts.usermain')
 @section('content')
-<section id="about" class="py-5 bg-white">
+<section id="about" class="py-5">
   <div class="container my-5">
     <div class="row align-items-center">
       
@@ -18,14 +18,14 @@
       <div class="col-lg-6 ps-lg-5">
         <h6 class="text-primary text-uppercase fw-bold mb-2">About Our Hospital</h6>
         <h2 class="display-5 fw-bold mb-4">Your Health Is Our Top Priority</h2>
-        <p class="lead text-muted mb-4">
+        <p class="lead mb-4">
           Our hospital is a leading multi-specialty healthcare provider, dedicated to delivering world-class medical services with compassion and advanced technology.
         </p>
         
         <ul class="list-unstyled mb-4 text-dark">
-          <li class="mb-2"><i class="bi bi-check-circle-fill text-primary me-2"></i> 24/7 Emergency & Ambulance Services</li>
-          <li class="mb-2"><i class="bi bi-check-circle-fill text-primary me-2"></i> Team of Highly Experienced Specialist Doctors</li>
-          <li class="mb-2"><i class="bi bi-check-circle-fill text-primary me-2"></i> Modern Diagnostics & Advanced Operation Theatres</li>
+          <p class="lead mb-4"> 24/7 Emergency & Ambulance Services</p>
+          <p class="lead mb-4"> Team of Highly Experienced Specialist Doctors</p>
+          <p> Modern Diagnostics & Advanced Operation Theatres</p>
         </ul>
 
         <div class="d-flex gap-3 mt-4">
