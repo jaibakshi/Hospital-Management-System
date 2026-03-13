@@ -22,5 +22,5 @@
                 </ul>
             </div>
         </div>
-        <button id="darkModeToggle" class="btn btn-dark" style="width:auto; margin-left:70px; margin-right:30px;">🌙 </button>
+        <button id="darkModeToggle" class="btn btn-dark" style="width:auto; margin-left:70px; margin-right:30px;">🌙 </button>  
     </nav>

@@ -29,7 +29,7 @@
                 </div>
             </div>
             <hr class="bg-secondary">
-            <p class="text-center mb-0">&copy; 2024 Hospital Management System. All rights reserved.</p>
+            <p class="text-center  mb-0">&copy; 2024 Hospital Management System. All rights reserved.</p>
         </div>
     </footer>
     

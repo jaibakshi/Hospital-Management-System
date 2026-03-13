@@ -90,50 +90,53 @@ body{
 }
 
 
-.dark-mode .achievement-card{
+/* .dark-mode .achievement-card{
     background: rgba(30,41,59,0.6);
     color:#e2e8f0;
     border:1px solid rgba(255,255,255,0.05);
     backdrop-filter: blur(10px);
-}
+} */
 
-.dark-mode .achievement-card h3{
+/* .dark-mode .achievement-card h3{
     color:#60a5fa;
 }
 
 .dark-mode .achievement-card p{
     color:#cbd5f5;
-}
+} */
 
-.dark-mode .services-section{
+/* .dark-mode .services-section{
     background:#020617;
-}
+} */
 
 .dark-mode .service-card{
-    background:#1e293b;
-    color:#e2e8f0;
-    border:none;
+background-color: rgba(255,255,255,0.2);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            border:1px rgba(255,255,255,0.3) solid;
+            color:#fff;
+            transition:all 0.3s ease;
 }
 
-.dark-mode .service-card h4{
+/* .dark-mode .service-card h4{
     color:#93c5fd;
-}
+} */
 
 .dark-mode .service-card p{
     color:#cbd5f5;
 }
 
-.dark-mode .service-card i{
+/* .dark-mode .service-card i{
     color:#60a5fa;
-}
+} */
 
 .dark-mode h2{
     color:#e2e8f0;
 }
 
-.dark-mode p{
+/* .dark-mode p{
     color:white;
-}
+} */
 /* .dark-mode section{
     background:#0f172a;
 } */
@@ -142,8 +145,8 @@ body{
 
 .btn-glass{
             background-color: rgba(255,255,255,0.2);
-            backdrop-filter: blur(10px);
-            -webkit-backdrop-filter: blur(10px);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
             border:1px rgba(255,255,255,0.3) solid;
             color:#fff;
             transition:all 0.3s ease;
@@ -154,3 +157,87 @@ body{
             color:#fff;
             border:1px solid rgba(255,255,255,0.5);
         }
+
+/* Card Container */
+.dark-mode .ui-night-mode-card {
+    background: #1e293b; /* Deep slate blue (Best for dark mode) */
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    border-radius: 24px;
+    padding: 25px;
+    text-align: center;
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    position: relative;
+    overflow: hidden;
+}
+
+/* Hover Effect - Card thoda uthega aur glow karega */
+.dark-mode .ui-night-mode-card:hover {
+    transform: translateY(-10px);
+    background: #1e293b;
+    border-color: #3b82f6;
+    box-shadow: 0 20px 40px rgba(59, 130, 246, 0.15);
+}
+
+/* Logo Section */
+.dark-mode .ui-night-mode-logo {
+    width: 80px;
+    height: 80px;
+    background: linear-gradient(135deg, #3b82f6, #9333ea);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 20px;
+    font-size: 2.5rem;
+    color: white;
+    box-shadow: 0 8px 16px rgba(59, 130, 246, 0.3);
+}
+
+/* Typography */
+.dark-mode .ui-night-mode-name {
+    color: #f8fafc; /* Near white */
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.dark-mode .ui-night-mode-spec {
+    font-size: 0.95rem;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.dark-mode .ui-night-mode-info {
+    display: flex;
+    justify-content: space-around;
+    color:#94a3b8; /* Soft grey for secondary text */
+    font-size: 0.85rem;
+    margin-bottom: 20px;
+}
+
+.dark-mode .ui-night-mode-info i {
+    color: #3b82f6; 
+    margin-right: 5px;
+}
+
+/* Appointment Button */
+ .dark-mode.btn-book {
+    /* width: 100%; */
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    /* color: white; */
+    /* padding: 12px; */
+    border-radius: 12px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.dark-mode .btn-book:hover {
+    background:white;
+    color:rgba(51, 51, 255, 0.918);
+    border-color: rgb(52, 52, 244);
+    box-shadow: 0 0 15px rgba(59, 130, 246, 0.4);
+} 

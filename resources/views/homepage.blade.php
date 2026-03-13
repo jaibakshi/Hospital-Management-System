@@ -6,11 +6,11 @@
         }
     </style>
     <!-- Hero Section -->
-    <section class="hero-section" id="home">
+    <section class="hero-section btn-glass" id="home">
         <div class="container">
             <h1>Welcome to Hospital Management System</h1>
             <p class="lead mb-4">Providing Excellence in Healthcare Services</p>
-            <button class="btn btn-light btn-lg me-3" data-bs-toggle="modal" data-bs-target="#appointmentModal">
+            <button class="btn btn-light btn-lg me-3 btn-book" data-bs-toggle="modal" data-bs-target="#appointmentModal">
                 <i class="fas fa-calendar-check"></i> Book Appointment
             </button>
             <a href="#services" class="btn btn-outline-light btn-lg">Learn More</a>
@@ -18,36 +18,36 @@
     </section>
 
     <!-- Statistics Section -->
-    <section class="py-5 ">
+    <section class="py-5 ui-night-mode-card">
         <div class="container achievement-card">
             <h2 class="text-center mb-5">Our Achievements</h2>
             <div class="row g-4 ">
                 <div class="col-md-3 col-sm-6">
-                    <div class="stats-card achievement-card">
-                        <i class="fas fa-users"></i>
-                        <div class="stat-number">50K+</div>
-                        <p>Happy Patients</p>
+                    <div class="stats-card btn-glass">
+                        <i class="fas fa-users ui-night-mode-logo"></i>
+                        <div class="stat-number ui-night-mode-name">50K+</div>
+                        <p class="ui-night-mode-name">Happy Patients</p>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6">
-                    <div class="stats-card achievement-card">
-                        <i class="fas fa-user-md"></i>
-                        <div class="stat-number ">200+</div>
-                        <p>Expert Doctors</p>
+                    <div class="stats-card btn-glass">
+                        <i class="fas fa-user-md ui-night-mode-logo"></i>
+                        <div class="stat-number ui-night-mode-name">200+</div>
+                        <p class="ui-night-mode-name">Expert Doctors</p>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6">
-                    <div class="stats-card achievement-card">
-                        <i class="fas fa-hospital"></i>
-                        <div class="stat-number">15+</div>
-                        <p>Departments</p>
+                    <div class="stats-card btn-glass">
+                        <i class="fas fa-hospital ui-night-mode-logo"></i>
+                        <div class="stat-number ui-night-mode-name">15+</div>
+                        <p class="ui-night-mode-name">Departments</p>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6">
-                    <div class="stats-card achievement-card">
-                        <i class="fas fa-award"></i>
-                        <div class="stat-number">25+</div>
-                        <p>Years Experience</p>
+                    <div class="stats-card btn-glass">
+                        <i class="fas fa-award ui-night-mode-logo"></i>
+                        <div class="stat-number ui-night-mode-name">25+</div>
+                        <p class="ui-night-mode-name">Years Experience</p>
                     </div>
                 </div>
             </div>
@@ -55,62 +55,62 @@
     </section>
 
     <!-- Services Section -->
-    <section class="py-5" id="services">
+    <section class="py-5 ui-night-mode-card" id="services">
         <div class="container">
             <h2 class="text-center mb-5">Our Services</h2>
             <div class="row g-4">   
-                <div class="col-md-6 col-lg-4">
+                <div class="col-md-6 col-lg-4 ">
                     <div class="service-card">
-                        <i class="fas fa-heartbeat"></i>
+                        <i class="fas fa-heartbeat ui-night-mode-logo"></i>
                         <a href="/hospital/cardiology">
-                        <h5>Cardiology</h5>
-                        <p class="text-muted">Expert cardiac care and treatment</p>
+                        <h5 class="ui-night-mode-name">Cardiology</h5>
+                        <p class="ui-night-mode-info">Expert cardiac care and treatment</p>
                     </a>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
                     <div class="service-card">
-                        <i class="fas fa-brain"></i>
+                        <i class="fas fa-brain ui-night-mode-logo"></i>
                         <a href="/hospital/neurology">
-                        <h5>Neurology</h5>
-                        <p class="text-muted">Advanced neurological treatments</p>
+                        <h5 class="ui-night-mode-name">Neurology</h5>
+                        <p class="ui-night-mode-info">Advanced neurological treatments</p>
                         </a>
                     </div>
                 </div>
                 
                 <div class="col-md-6 col-lg-4">
                     <div class="service-card">
-                        <i class="fas fa-tooth"></i>
+                        <i class="fas fa-tooth ui-night-mode-logo"></i>
                         <a href="/hospital/dentistry">
-                        <h5>Dentistry</h5>
-                        <p class="text-muted">Complete dental care services</p>
+                        <h5 class="ui-night-mode-name">Dentistry</h5>
+                        <p class="ui-night-mode-info">Complete dental care services</p>
                         </a>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
                     <div class="service-card">
-                        <i class="fas fa-eye"></i>
+                        <i class="fas fa-eye ui-night-mode-logo"></i>
                         <a href="/hospital/ortho">
-                        <h5>Ophthalmology</h5>
-                        <p class="text-muted">Eye care and vision correction</p>
+                        <h5 class="ui-night-mode-name">Ophthalmology</h5>
+                        <p class="ui-night-mode-info">Eye care and vision correction</p>
                         </a>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
                     <div class="service-card">
-                        <i class="fas fa-lungs"></i>
+                        <i class="fas fa-lungs ui-night-mode-logo"></i>
                         <a href="/hospital/pulmonology">
-                        <h5>Pulmonology</h5>
-                        <p class="text-muted">Respiratory & lung treatment</p>
+                        <h5 class="ui-night-mode-name">Pulmonology</h5>
+                        <p class="ui-night-mode-info">Respiratory & lung treatment</p>
                         </a>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
                     <div class="service-card">
-                        <i class="fas fa-pills"></i>
+                        <i class="fas fa-pills ui-night-mode-logo"></i>
                         <a href="/hospital/pharmacy">
-                        <h5>Pharmacy</h5>
-                        <p class="text-muted">Full pharmaceutical services</p>
+                        <h5 class="ui-night-mode-name">Pharmacy</h5>
+                        <p class="ui-night-mode-info">Full pharmaceutical services</p>
                         </a>
                     </div>
                 </div>

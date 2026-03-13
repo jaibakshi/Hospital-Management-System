@@ -11,7 +11,7 @@
             <li><a href="/admin-doctor"><i class="fas fa-user-md"></i> Doctors</a></li>
             <li><a href="/admin/patients"><i class="fas fa-users"></i> Patients</a></li>
             <li><a href="/admin/appointment"><i class="fas fa-calendar-check"></i> Appointments</a></li>
-            <li><a href="/admin/reports"><i class="fas fa-file-pdf"></i> Reports</a></li>
+            <!-- <li><a href="/admin/reports"><i class="fas fa-file-pdf"></i> Reports</a></li> -->
             <li><a href="/admin/setting"><i class="fas fa-cog"></i> Settings</a></li>
 
             <li><a href="/logout"><i class="fas fa-sign-out-alt"></i> Logout</a></li>

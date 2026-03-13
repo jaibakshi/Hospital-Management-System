@@ -86,65 +86,69 @@ a{
         <h2 class="section-title">Our Medical Services</h2>
         <p class="section-subtitle">Providing world-class healthcare with a compassionate touch.</p>
 
-<div class="container">
+<section class="py-5 doctor-card" id="services">
+        <div class="container">
+            <h2 class="text-center mb-5">Our Services</h2>
             <div class="row g-4">   
-                <div class="col-md-6 col-lg-4">
+                <div class="col-md-6 col-lg-4 ">
                     <div class="service-card">
-                        <i class="fas fa-heartbeat"></i>
+                        <i class="fas fa-heartbeat doctor-logo"></i>
                         <a href="/hospital/cardiology">
-                        <h5>Cardiology</h5>
-                        <p class="text-muted">Expert cardiac care and treatment</p>
+                        <h5 class="doctor-name">Cardiology</h5>
+                        <p class="doctor-info">Expert cardiac care and treatment</p>
                     </a>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
                     <div class="service-card">
-                        <i class="fas fa-brain"></i>
+                        <i class="fas fa-brain doctor-logo"></i>
                         <a href="/hospital/neurology">
-                        <h5>Neurology</h5>
-                        <p class="text-muted">Advanced neurological treatments</p>
+                        <h5 class="doctor-name">Neurology</h5>
+                        <p class="doctor-info">Advanced neurological treatments</p>
                         </a>
                     </div>
                 </div>
                 
                 <div class="col-md-6 col-lg-4">
                     <div class="service-card">
-                        <i class="fas fa-tooth"></i>
+                        <i class="fas fa-tooth doctor-logo"></i>
                         <a href="/hospital/dentistry">
-                        <h5>Dentistry</h5>
-                        <p class="text-muted">Complete dental care services</p>
+                        <h5 class="doctor-name">Dentistry</h5>
+                        <p class="doctor-info">Complete dental care services</p>
                         </a>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
                     <div class="service-card">
-                        <i class="fas fa-eye"></i>
+                        <i class="fas fa-eye doctor-logo"></i>
                         <a href="/hospital/ortho">
-                        <h5>Ophthalmology</h5>
-                        <p class="text-muted">Eye care and vision correction</p>
+                        <h5 class="doctor-name">Ophthalmology</h5>
+                        <p class="doctor-info">Eye care and vision correction</p>
                         </a>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
                     <div class="service-card">
-                        <i class="fas fa-lungs"></i>
+                        <i class="fas fa-lungs doctor-logo"></i>
                         <a href="/hospital/pulmonology">
-                        <h5>Pulmonology</h5>
-                        <p class="text-muted">Respiratory & lung treatment</p>
+                        <h5 class="doctor-name">Pulmonology</h5>
+                        <p class="doctor-info">Respiratory & lung treatment</p>
                         </a>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
                     <div class="service-card">
-                        <i class="fas fa-pills"></i>
+                        <i class="fas fa-pills doctor-logo"></i>
                         <a href="/hospital/pharmacy">
-                        <h5>Pharmacy</h5>
-                        <p class="text-muted">Full pharmaceutical services</p>
+                        <h5 class="doctor-name">Pharmacy</h5>
+                        <p class="doctor-info">Full pharmaceutical services</p>
                         </a>
                     </div>
                 </div>
             </div>
         </div>
+    </section>
+
 
 <!-- 
         <div class="services-grid">
