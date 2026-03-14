@@ -86,62 +86,62 @@ a{
         <h2 class="section-title">Our Medical Services</h2>
         <p class="section-subtitle">Providing world-class healthcare with a compassionate touch.</p>
 
-<section class="py-5 doctor-card" id="services">
+<section class="py-5 ui-night-mode-card" id="services">
         <div class="container">
             <h2 class="text-center mb-5">Our Services</h2>
             <div class="row g-4">   
                 <div class="col-md-6 col-lg-4 ">
                     <div class="service-card">
-                        <i class="fas fa-heartbeat doctor-logo"></i>
+                        <i class="fas fa-heartbeat ui-night-mode-logo"></i>
                         <a href="/hospital/cardiology">
-                        <h5 class="doctor-name">Cardiology</h5>
-                        <p class="doctor-info">Expert cardiac care and treatment</p>
+                        <h5 class="ui-night-mode-name">Cardiology</h5>
+                        <p class="ui-night-mode-info">Expert cardiac care and treatment</p>
                     </a>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
                     <div class="service-card">
-                        <i class="fas fa-brain doctor-logo"></i>
+                        <i class="fas fa-brain ui-night-mode-logo"></i>
                         <a href="/hospital/neurology">
-                        <h5 class="doctor-name">Neurology</h5>
-                        <p class="doctor-info">Advanced neurological treatments</p>
+                        <h5 class="ui-night-mode-name">Neurology</h5>
+                        <p class="ui-night-mode-info">Advanced neurological treatments</p>
                         </a>
                     </div>
                 </div>
                 
                 <div class="col-md-6 col-lg-4">
                     <div class="service-card">
-                        <i class="fas fa-tooth doctor-logo"></i>
+                        <i class="fas fa-tooth ui-night-mode-logo"></i>
                         <a href="/hospital/dentistry">
-                        <h5 class="doctor-name">Dentistry</h5>
-                        <p class="doctor-info">Complete dental care services</p>
+                        <h5 class="ui-night-mode-name">Dentistry</h5>
+                        <p class="ui-night-mode-info">Complete dental care services</p>
                         </a>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
                     <div class="service-card">
-                        <i class="fas fa-eye doctor-logo"></i>
+                        <i class="fas fa-eye ui-night-mode-logo"></i>
                         <a href="/hospital/ortho">
-                        <h5 class="doctor-name">Ophthalmology</h5>
-                        <p class="doctor-info">Eye care and vision correction</p>
+                        <h5 class="ui-night-mode-name">Ophthalmology</h5>
+                        <p class="ui-night-mode-info">Eye care and vision correction</p>
                         </a>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
                     <div class="service-card">
-                        <i class="fas fa-lungs doctor-logo"></i>
+                        <i class="fas fa-lungs ui-night-mode-logo"></i>
                         <a href="/hospital/pulmonology">
-                        <h5 class="doctor-name">Pulmonology</h5>
-                        <p class="doctor-info">Respiratory & lung treatment</p>
+                        <h5 class="ui-night-mode-name">Pulmonology</h5>
+                        <p class="ui-night-mode-info">Respiratory & lung treatment</p>
                         </a>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
                     <div class="service-card">
-                        <i class="fas fa-pills doctor-logo"></i>
+                        <i class="fas fa-pills ui-night-mode-logo"></i>
                         <a href="/hospital/pharmacy">
-                        <h5 class="doctor-name">Pharmacy</h5>
-                        <p class="doctor-info">Full pharmaceutical services</p>
+                        <h5 class="ui-night-mode-name">Pharmacy</h5>
+                        <p class="ui-night-mode-info">Full pharmaceutical services</p>
                         </a>
                     </div>
                 </div>
